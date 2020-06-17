@@ -104,7 +104,20 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+$(document).ready(function () {
+  $.ajax({
+    'url': 'database/dischi.php',
+    'method': 'GET',
+    'success': function success(data) {
+      console.log(data);
+    },
+    //fine success
+    'error': function error() {
+      console.log('errore');
+    } //fine error
 
+  }); //fine ajax
+}); //fine document
 
 /***/ }),
 
