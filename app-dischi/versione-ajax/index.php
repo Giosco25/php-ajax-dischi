@@ -14,10 +14,14 @@
             </div>
         </header>
         <div class="container-cd">
-
-
         </div>
         <script id="cd-template" type="text/x-handlebars-template">
+            <div class="cd {{ genere }}">
+                <img src="{{ copertina }}" alt="">
+                 <h2>{{ titolo }}</h2>
+                 <p class="autore"> {{ artista }}</p>
+                 <p class="anno">{{ anno }}</p>
+             </div>
         </script>
         <script src="../dist/js/main.js" charset="utf-8"></script>
     </body>
