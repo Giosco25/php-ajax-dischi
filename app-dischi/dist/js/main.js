@@ -139,7 +139,7 @@ $(document).ready(function () {
       $('.container-cd').append(template_generato);
     } //fine ciclo for
 
-  } // fine ciclo function
+  } // fine function
 
 }); //fine document
 

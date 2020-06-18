@@ -30,5 +30,5 @@ $(document).ready(function() {
             var template_generato = template(context);
             $('.container-cd').append(template_generato);
         }//fine ciclo for
-    }// fine ciclo function
+    }// fine function
 });//fine document
